@@ -25,7 +25,7 @@ export default {
 <template>
   <div>
     <h1>Demo Page 123</h1>
-    <img src="/assets/logo.png" alt="asd">
+    <img src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*rna7_6qHSzp9uABxE1slgA.png" alt="asd">
   </div>
 </template>
 
