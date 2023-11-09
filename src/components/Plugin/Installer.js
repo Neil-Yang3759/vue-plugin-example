@@ -12,6 +12,7 @@ class Installer {
     Vue.component('VueDialogPlugin', Dialog)
 
     Vue.prototype.$dialog = (options) => {
+      console.log(options)
       events.$emit('dialog', options)
     }
   }
