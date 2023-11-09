@@ -37,10 +37,11 @@ div#vue-dialog{
   position: fixed;
   z-index: 5000;
   top: 100px;
-  left: calc(100vw/2 - 400px/2);
+  left: calc(100vw/2 - 400px/2);*/
   border: 2px gray solid;
   width: 400px;
   height: 300px;
   padding: 15px;
+  background-color: #f00;
 }
 </style>

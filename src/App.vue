@@ -1,20 +1,18 @@
 <template>
-<!--   <div>
-    <h1>Demo Page 123</h1>
-    <button @click="open">open</button>
-  </div> -->
-
   <div id="app">
     <router-view/>
 
-    <VueDialogPlugin/>
+    <VueDialogPlugin />
+    <HiPlugin />
   </div>
 </template>
 
 <script>
 import Vue from 'vue'
 import Dialog from '@/components/Plugin/Installer.js'
+import Hi from '@/components/Plugin/Installer.js'
 Vue.use(Dialog)
+Vue.use(Hi)
 
 export default {
   name: 'App'

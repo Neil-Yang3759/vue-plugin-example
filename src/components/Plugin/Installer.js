@@ -1,4 +1,5 @@
 import Dialog from '@/components/Plugin/Dialog.vue'
+import Hi from '@/components/Plugin/Hi.vue'
 import { events } from '@/components/Plugin/Events.js'
 
 class Installer {
@@ -10,10 +11,14 @@ class Installer {
     this.isInstalled = true
 
     Vue.component('VueDialogPlugin', Dialog)
+    Vue.component('HiPlugin', Hi)
 
     Vue.prototype.$dialog = (options) => {
-      console.log(options)
       events.$emit('dialog', options)
+    }
+
+    Vue.prototype.$hi = () => {
+      events.$emit('hi')
     }
   }
 }
