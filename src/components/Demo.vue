@@ -9,12 +9,12 @@
 <script>
 export default {
   methods: {
-    open() {
+    open () {
       this.$dialog({
         title: 'foo',
-        content: 'bar',
+        content: 'bar'
       })
-    },
-  },
+    }
+  }
 }
 </script>

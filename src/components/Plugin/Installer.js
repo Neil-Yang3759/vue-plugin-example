@@ -2,11 +2,11 @@ import Dialog from '@/components/Plugin/Dialog.vue'
 import { events } from '@/components/Plugin/Events.js'
 
 class Installer {
-  constructor() {
+  constructor () {
     this.isInstalled = false
   }
-  install(Vue, options) {
-    if(this.isInstalled) return
+  install (Vue, options) {
+    if (this.isInstalled) return
     this.isInstalled = true
 
     Vue.component('VueDialogPlugin', Dialog)

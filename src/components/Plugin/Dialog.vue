@@ -9,26 +9,26 @@
 <script>
 import { events } from '@/components/Plugin/Events.js'
 export default {
-  data() {
+  data () {
     return {
       title: null,
       content: null,
-      active: false,
+      active: false
     }
   },
-  async created() {
+  async created () {
     events.$on('dialog', this.open)
   },
   methods: {
-    open(options) {
+    open (options) {
       this.active = true
       this.title = options.title || 'Title'
       this.content = options.content || null
     },
-    close() {
+    close () {
       this.active = false
-    },
-  },
+    }
+  }
 }
 </script>
 
