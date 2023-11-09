@@ -24,7 +24,7 @@ export default {
 
 <template>
   <div>
-    <h1>Demo Page</h1>
+    <h1>Demo Page 123</h1>
     <img src="/assets/favicon.ico" alt="asd">
   </div>
 </template>
