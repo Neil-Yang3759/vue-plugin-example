@@ -4,9 +4,11 @@
     <button @click="open">open</button>
   </div> -->
 
-  <router-view/>
+  <div id="app">
+    <router-view/>
 
-  <VueDialogPlugin />
+    <VueDialogPlugin/>
+  </div>
 </template>
 
 <script>
