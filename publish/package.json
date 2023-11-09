@@ -1,0 +1,22 @@
+{
+  "name": "vue-plugin-example",
+  "version": "1.0.0",
+  "description": "Neil's vue plugin example",
+  "main": "dist/vue-plugin-example.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Neil-Yang3759/vue-plugin-example.git"
+  },
+  "keywords": [
+    "vue-plugin-example"
+  ],
+  "author": "Neil <cloudyang3759@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Neil-Yang3759/vue-plugin-example/issues"
+  },
+  "homepage": "https://github.com/Neil-Yang3759/vue-plugin-example#readme"
+}

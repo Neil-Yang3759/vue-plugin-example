@@ -9,8 +9,10 @@
 
 <script>
 import Vue from 'vue'
-import Dialog from '@/components/Plugin/Installer.js'
-import Hi from '@/components/Plugin/Installer.js'
+// eslint-disable-next-line import/no-duplicates
+import Dialog from '../publish/dist/vue-plugin-example.js'
+// eslint-disable-next-line import/no-duplicates
+import Hi from '../publish/dist/vue-plugin-example.js'
 Vue.use(Dialog)
 Vue.use(Hi)
 
@@ -18,3 +20,5 @@ export default {
   name: 'App'
 }
 </script>
+
+<style src="@/../publish/dist/vue-plugin-example.css"></style>
